@@ -43,9 +43,11 @@ Partial Class Form3
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1005, 655)
         Me.Controls.Add(Me.Label1)
+        Me.MaximumSize = New System.Drawing.Size(1021, 694)
+        Me.MinimumSize = New System.Drawing.Size(1021, 694)
         Me.Name = "Form3"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
-        Me.Text = "Form3"
+        Me.Text = "Quizz"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

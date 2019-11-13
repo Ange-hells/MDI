@@ -155,7 +155,7 @@
         sytemeGestion.MajAccessibiliterMenu(MDI)
     End Sub
     Sub FermerAllFille(ByVal MDI As MDI)
-        Dim form As Form
+        Dim form As Windows.Forms.Form
         For Each form In MDI.MdiChildren
             form.Close()
         Next
