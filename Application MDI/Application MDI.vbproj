@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA25819B-2754-4C51-83CD-EE6C8C494B74}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Application_MDI.My.MyApplication</StartupObject>
+    <RootNamespace>Application_MDI</RootNamespace>
+    <AssemblyName>Application MDI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\dsi.stagiaire\Desktop\mdi\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.12.83.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Application MDI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Application MDI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icons8_Application_Window.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AA807E7FB1C33DCCED94B5C0DFF58E3FB7C167E0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Application MDI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="PresentationFramework.Aero2" />
+    <Reference Include="PresentationFramework.AeroLite" />
+    <Reference Include="PresentationFramework.Classic" />
+    <Reference Include="PresentationFramework.Luna" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AleaColor.Designer.vb">
+      <DependentUpon>AleaColor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AleaColor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_Propos.Designer.vb">
+      <DependentUpon>A_Propos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="A_Propos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutEvasionV2.Designer.vb">
+      <DependentUpon>AboutEvasionV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutEvasionV2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutEditionFilm.Designer.vb">
+      <DependentUpon>AjoutEditionFilm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutEditionFilm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajouter_au_favoris.Designer.vb">
+      <DependentUpon>Ajouter_au_favoris.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ajouter_au_favoris.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Calcul.Designer.vb">
+      <DependentUpon>Calcul.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calcul.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demarage.Designer.vb">
+      <DependentUpon>Demarage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Demarage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evasion V2.Designer.vb">
+      <DependentUpon>Evasion V2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Evasion V2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evasion.Designer.vb">
+      <DependentUpon>Evasion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Evasion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factoriel.Designer.vb">
+      <DependentUpon>Factoriel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Factoriel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="favoris_liste.Designer.vb">
+      <DependentUpon>favoris_liste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="favoris_liste.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI.Designer.vb">
+      <DependentUpon>MDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI_Log.Designer.vb">
+      <DependentUpon>MDI_Log.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDI_Log.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI_setting.Designer.vb">
+      <DependentUpon>MDI_setting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDI_setting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Memory-Option.Designer.vb">
+      <DependentUpon>Memory-Option.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Memory-Option.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memory_V1.x.vb" />
+    <Compile Include="Memoy.Designer.vb">
+      <DependentUpon>Memoy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Memoy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Palindrome.Designer.vb">
+      <DependentUpon>Palindrome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Palindrome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTheque.Designer.vb">
+      <DependentUpon>PersonalTheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTheque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sudoku.Designer.vb">
+      <DependentUpon>Sudoku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sudoku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sytemeGestion.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AleaColor.resx">
+      <DependentUpon>AleaColor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_Propos.resx">
+      <DependentUpon>A_Propos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutEvasionV2.resx">
+      <DependentUpon>AboutEvasionV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutEditionFilm.resx">
+      <DependentUpon>AjoutEditionFilm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajouter_au_favoris.resx">
+      <DependentUpon>Ajouter_au_favoris.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calcul.resx">
+      <DependentUpon>Calcul.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demarage.resx">
+      <DependentUpon>Demarage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Evasion V2.resx">
+      <DependentUpon>Evasion V2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Evasion.resx">
+      <DependentUpon>Evasion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factoriel.resx">
+      <DependentUpon>Factoriel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="favoris_liste.resx">
+      <DependentUpon>favoris_liste.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI.resx">
+      <DependentUpon>MDI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI.zu.resx">
+      <DependentUpon>MDI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI_Log.resx">
+      <DependentUpon>MDI_Log.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI_setting.resx">
+      <DependentUpon>MDI_setting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Memory-Option.resx">
+      <DependentUpon>Memory-Option.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Memoy.resx">
+      <DependentUpon>Memoy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Palindrome.resx">
+      <DependentUpon>Palindrome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalTheque.resx">
+      <DependentUpon>PersonalTheque.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sudoku.resx">
+      <DependentUpon>Sudoku.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Application MDI_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fermer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fermer_tout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OuvrirForm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OuvrirForm2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TileCascade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TileHorizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TileVertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\téléchargé.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sans titre 1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\téléchargé3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Direction_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Math_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Globe_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cards_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left 2_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right 2_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Replay_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Middle East_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop Sign_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sans titre 11.bmp" />
+    <None Include="Resources\Sans titre 101.bmp" />
+    <None Include="Resources\Sans titre 10.bmp" />
+    <None Include="Resources\Pass Fail_16px.png" />
+    <None Include="Resources\baniere demarage MDIv1xx.bmp" />
+    <None Include="Resources\Grid_16px.png" />
+    <Content Include="Resources\icons8_Application_Window.ico" />
+    <None Include="Resources\icons8_Administrative_Tools_16.png" />
+    <None Include="Resources\Formula FX_16px1.png" />
+    <None Include="Resources\EvasionV2Baniere.bmp" />
+    <None Include="Resources\MDIBaniere.bmp" />
+    <None Include="Resources\icons8-order-history-16.png" />
+    <None Include="Resources\icons8-info-16.png" />
+    <None Include="Resources\icons8-activity-history-16.png" />
+    <None Include="Resources\icons8-activity-history-16%281%29.png" />
+    <None Include="Resources\icons8-star-filled-16.png" />
+    <None Include="Resources\icons8-search-folder-16.png" />
+    <None Include="Resources\icons8-color-16.png" />
+    <None Include="Resources\icons8-add-to-favorites-16.png" />
+    <None Include="Resources\Formula FX_16px.png" />
+    <None Include="Resources\Book Shelf_16px.png" />
+    <None Include="Resources\I-Moyenne-204613-tapis-de-jeux-a-broder-broderie-toile-imprimee-marie-coeur.net.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
