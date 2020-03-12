@@ -27,7 +27,7 @@
         ListeCartesJeu = New ImageList
         ListeCartesJeu.ImageSize = New System.Drawing.Size(71, 106)
 
-        For Each fichier As String In My.Computer.FileSystem.GetFiles("../../../../images/memory/cartes")
+        For Each fichier As String In My.Computer.FileSystem.GetFiles("./images/memory/cartes")
             If fichier.Substring(fichier.Length - 4) = ".bmp" And fichier.Substring(fichier.Length - 7) <> "dos.bmp" Then
                 ListeCartesJeu.Images.Add(Image.FromFile(fichier))
             End If
