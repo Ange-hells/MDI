@@ -27,7 +27,7 @@
         ListeCartesJeu = New ImageList
         ListeCartesJeu.ImageSize = New System.Drawing.Size(71, 106)
 
-        For Each fichier As String In My.Computer.FileSystem.GetFiles("./images/memory/cartes")
+        For Each fichier As String In My.Computer.FileSystem.GetFiles("../../Resources/images/memory/cartes")
             If fichier.Substring(fichier.Length - 4) = ".bmp" And fichier.Substring(fichier.Length - 7) <> "dos.bmp" Then
                 ListeCartesJeu.Images.Add(Image.FromFile(fichier))
             End If
@@ -80,7 +80,7 @@
                 .Width = Largeur
                 .Top = Math.Floor(i / NbCartesMaxParLigne) * (Espacement + Hauteur) + 10
                 .Left = (Largeur + Espacement) * (i - NbCartesMaxParLigne * Math.Floor(i / NbCartesMaxParLigne))
-                .Image = Image.FromFile("../../../../images/memory/cartes\dos.bmp")
+                .Image = Image.FromFile("../../Resources/images/memory/cartes\dos.bmp")
                 .Enabled = False
                 .AllowDrop = True
             End With
@@ -102,7 +102,7 @@
                 .Width = Largeur
                 .Top = 10
                 .Left = Espacement * i
-                .Image = Image.FromFile("../../../../images/memory/cartes\dos.bmp")
+                .Image = Image.FromFile("../../Resources/images/memory/cartes\dos.bmp")
                 .Enabled = False
             End With
             Panelpioche.Controls.Add(unePictureBox)
@@ -130,7 +130,7 @@
         picture.Image = ListeCartesJeu.Images.Item(ListeCartesTapis.Item(CInt(picture.Name)))
         If nbtapis <> nbpioche Then
             Attendre(1000)
-            picture.Image = Image.FromFile("../../../../images/memory/cartes\dos.bmp")
+            picture.Image = Image.FromFile("../../Resources/images/memory/cartes\dos.bmp")
             'If bt_triche.Enabled = False Then
             '    bt_triche.Enabled = True
             'End If
@@ -154,7 +154,7 @@
         Next
         Attendre(4000)
         For Each controle As PictureBox In Paneltapis.Controls
-            controle.Image = Image.FromFile("../../../../images/memory/cartes\dos.bmp")
+            controle.Image = Image.FromFile("../../Resources/images/memory/cartes\dos.bmp")
             controle.Enabled = True
         Next
         Attendre(1000)
