@@ -147,6 +147,20 @@
         sytemeGestion.MajAccessibiliterMenu(MDI)
         sytemeGestion.Majstatu(MDI)
     End Sub
+    Sub ouvrirChifumi(ByVal MDI As MDI)
+        Dim ouvrir As New Chifumi
+        ouvrir.MdiParent = MDI
+        ouvrir.Show()
+        sytemeGestion.MajAccessibiliterMenu(MDI)
+        sytemeGestion.Majstatu(MDI)
+    End Sub
+    Sub ouvrir007(ByVal MDI As MDI)
+        Dim ouvrir As New _007
+        ouvrir.MdiParent = MDI
+        ouvrir.Show()
+        sytemeGestion.MajAccessibiliterMenu(MDI)
+        sytemeGestion.Majstatu(MDI)
+    End Sub
 #End Region
 
 #Region "fermetur des fenetre fille"
