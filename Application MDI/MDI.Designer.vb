@@ -34,6 +34,9 @@ Partial Class MDI
         Me.MenuPalindrome = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuFactorielle = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuJeux = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuMemory = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuSudoku = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuQuiz = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuEvasion = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuEvasionV2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuPersonalTheque = New System.Windows.Forms.ToolStripMenuItem()
@@ -57,21 +60,20 @@ Partial Class MDI
         Me.TSB_memory = New System.Windows.Forms.ToolStripMenuItem()
         Me.SudokuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuizzToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ChifumiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me._007ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TSB_evasion = New System.Windows.Forms.ToolStripButton()
         Me.TSB_evasion_V2 = New System.Windows.Forms.ToolStripButton()
         Me.TSB_PersonalTheque = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TSB_Fermer = New System.Windows.Forms.ToolStripButton()
+        Me.TSB_FermerAll = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.TSB_Cascade = New System.Windows.Forms.ToolStripButton()
         Me.TSB_Horisontal = New System.Windows.Forms.ToolStripButton()
         Me.TSB_Vertical = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
         Me.QuitterToolStripMenuItem = New System.Windows.Forms.ToolStripButton()
-        Me.TSB_FermerAll = New System.Windows.Forms.ToolStripButton()
-        Me.MenuMemory = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MenuSudoku = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MenuQuiz = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
@@ -143,6 +145,24 @@ Partial Class MDI
         Me.MenuJeux.Image = Global.Application_MDI.My.Resources.Resources.Cards_16px
         Me.MenuJeux.Name = "MenuJeux"
         resources.ApplyResources(Me.MenuJeux, "MenuJeux")
+        '
+        'MenuMemory
+        '
+        Me.MenuMemory.Image = Global.Application_MDI.My.Resources.Resources.Cards_16px
+        Me.MenuMemory.Name = "MenuMemory"
+        resources.ApplyResources(Me.MenuMemory, "MenuMemory")
+        '
+        'MenuSudoku
+        '
+        Me.MenuSudoku.Image = Global.Application_MDI.My.Resources.Resources.Grid_16px
+        Me.MenuSudoku.Name = "MenuSudoku"
+        resources.ApplyResources(Me.MenuSudoku, "MenuSudoku")
+        '
+        'MenuQuiz
+        '
+        Me.MenuQuiz.Image = Global.Application_MDI.My.Resources.Resources.Pass_Fail_16px
+        Me.MenuQuiz.Name = "MenuQuiz"
+        resources.ApplyResources(Me.MenuQuiz, "MenuQuiz")
         '
         'MenuEvasion
         '
@@ -267,7 +287,7 @@ Partial Class MDI
         'TSM_memory
         '
         Me.TSM_memory.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.TSM_memory.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSB_memory, Me.SudokuToolStripMenuItem, Me.QuizzToolStripMenuItem})
+        Me.TSM_memory.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSB_memory, Me.SudokuToolStripMenuItem, Me.QuizzToolStripMenuItem, Me.ChifumiToolStripMenuItem, Me._007ToolStripMenuItem})
         Me.TSM_memory.Image = Global.Application_MDI.My.Resources.Resources.Cards_16px
         resources.ApplyResources(Me.TSM_memory, "TSM_memory")
         Me.TSM_memory.Name = "TSM_memory"
@@ -289,6 +309,18 @@ Partial Class MDI
         Me.QuizzToolStripMenuItem.Image = Global.Application_MDI.My.Resources.Resources.Pass_Fail_16px
         Me.QuizzToolStripMenuItem.Name = "QuizzToolStripMenuItem"
         resources.ApplyResources(Me.QuizzToolStripMenuItem, "QuizzToolStripMenuItem")
+        '
+        'ChifumiToolStripMenuItem
+        '
+        Me.ChifumiToolStripMenuItem.Image = Global.Application_MDI.My.Resources.Resources.Chifumi_16
+        Me.ChifumiToolStripMenuItem.Name = "ChifumiToolStripMenuItem"
+        resources.ApplyResources(Me.ChifumiToolStripMenuItem, "ChifumiToolStripMenuItem")
+        '
+        '_007ToolStripMenuItem
+        '
+        Me._007ToolStripMenuItem.Image = Global.Application_MDI.My.Resources.Resources._007_16
+        Me._007ToolStripMenuItem.Name = "_007ToolStripMenuItem"
+        resources.ApplyResources(Me._007ToolStripMenuItem, "_007ToolStripMenuItem")
         '
         'TSB_evasion
         '
@@ -322,6 +354,13 @@ Partial Class MDI
         Me.TSB_Fermer.Image = Global.Application_MDI.My.Resources.Resources.Fermer
         resources.ApplyResources(Me.TSB_Fermer, "TSB_Fermer")
         Me.TSB_Fermer.Name = "TSB_Fermer"
+        '
+        'TSB_FermerAll
+        '
+        Me.TSB_FermerAll.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.TSB_FermerAll.Image = Global.Application_MDI.My.Resources.Resources.Fermer_tout
+        resources.ApplyResources(Me.TSB_FermerAll, "TSB_FermerAll")
+        Me.TSB_FermerAll.Name = "TSB_FermerAll"
         '
         'ToolStripSeparator2
         '
@@ -360,31 +399,6 @@ Partial Class MDI
         Me.QuitterToolStripMenuItem.Image = Global.Application_MDI.My.Resources.Resources.Quitter
         resources.ApplyResources(Me.QuitterToolStripMenuItem, "QuitterToolStripMenuItem")
         Me.QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem"
-        '
-        'TSB_FermerAll
-        '
-        Me.TSB_FermerAll.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.TSB_FermerAll.Image = Global.Application_MDI.My.Resources.Resources.Fermer_tout
-        resources.ApplyResources(Me.TSB_FermerAll, "TSB_FermerAll")
-        Me.TSB_FermerAll.Name = "TSB_FermerAll"
-        '
-        'MenuMemory
-        '
-        Me.MenuMemory.Image = Global.Application_MDI.My.Resources.Resources.Cards_16px
-        Me.MenuMemory.Name = "MenuMemory"
-        resources.ApplyResources(Me.MenuMemory, "MenuMemory")
-        '
-        'MenuSudoku
-        '
-        Me.MenuSudoku.Image = Global.Application_MDI.My.Resources.Resources.Grid_16px
-        Me.MenuSudoku.Name = "MenuSudoku"
-        resources.ApplyResources(Me.MenuSudoku, "MenuSudoku")
-        '
-        'MenuQuiz
-        '
-        Me.MenuQuiz.Image = Global.Application_MDI.My.Resources.Resources.Pass_Fail_16px
-        Me.MenuQuiz.Name = "MenuQuiz"
-        resources.ApplyResources(Me.MenuQuiz, "MenuQuiz")
         '
         'MDI
         '
@@ -457,4 +471,6 @@ Partial Class MDI
     Friend WithEvents MenuMemory As ToolStripMenuItem
     Friend WithEvents MenuSudoku As ToolStripMenuItem
     Friend WithEvents MenuQuiz As ToolStripMenuItem
+    Friend WithEvents ChifumiToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents _007ToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -112,6 +112,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="007.Designer.vb">
+      <DependentUpon>007.vb</DependentUpon>
+    </Compile>
+    <Compile Include="007.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="AleaColor.Designer.vb">
       <DependentUpon>AleaColor.vb</DependentUpon>
     </Compile>
@@ -147,6 +153,12 @@
       <DependentUpon>Calcul.vb</DependentUpon>
     </Compile>
     <Compile Include="Calcul.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chifumi.Designer.vb">
+      <DependentUpon>Chifumi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chifumi.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Demarage.Designer.vb">
@@ -266,6 +278,9 @@
     <Compile Include="sytemeGestion.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="007.resx">
+      <DependentUpon>007.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AleaColor.resx">
       <DependentUpon>AleaColor.vb</DependentUpon>
     </EmbeddedResource>
@@ -283,6 +298,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Calcul.resx">
       <DependentUpon>Calcul.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chifumi.resx">
+      <DependentUpon>Chifumi.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Demarage.resx">
       <DependentUpon>Demarage.vb</DependentUpon>
@@ -438,6 +456,8 @@
     <None Include="Resources\Pass Fail_16px.png" />
     <None Include="Resources\baniere demarage MDIv1xx.bmp" />
     <None Include="Resources\Grid_16px.png" />
+    <Content Include="Resources\007-16.png" />
+    <Content Include="Resources\Chifumi-16.png" />
     <Content Include="Resources\icons8_Application_Window.ico" />
     <None Include="Resources\icons8_Administrative_Tools_16.png" />
     <None Include="Resources\Formula FX_16px1.png" />

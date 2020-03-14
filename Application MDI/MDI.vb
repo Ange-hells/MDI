@@ -58,6 +58,13 @@
     Private Sub QuizToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles QuizzToolStripMenuItem.Click, MenuQuiz.Click
         sytemeGestion.ouvrirQuiz(Me)
     End Sub
+    Private Sub ChifumiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChifumiToolStripMenuItem.Click
+        sytemeGestion.ouvrirChifumi(Me)
+    End Sub
+
+    Private Sub _007ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles _007ToolStripMenuItem.Click
+        sytemeGestion.ouvrir007(Me)
+    End Sub
 
 #End Region
 

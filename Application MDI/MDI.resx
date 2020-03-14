@@ -121,12 +121,6 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Nb_fenêtreFille.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 17</value>
-  </data>
-  <data name="Nb_fenêtreFille.Text" xml:space="preserve">
-    <value>ToolStripStatusLabel1</value>
-  </data>
   <data name="StatusStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 435</value>
   </data>
@@ -152,153 +146,15 @@
   <data name="&gt;&gt;StatusStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="Nb_fenêtreFille.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="Nb_fenêtreFille.Text" xml:space="preserve">
+    <value>ToolStripStatusLabel1</value>
+  </data>
   <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>123, 19</value>
   </metadata>
-  <data name="MenuForm1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuForm1.Text" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="MenuForm2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuForm2.Text" xml:space="preserve">
-    <value>Form2</value>
-  </data>
-  <data name="MenuCalcul.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuCalcul.Text" xml:space="preserve">
-    <value>Calcul</value>
-  </data>
-  <data name="MenuPalindrome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuPalindrome.Text" xml:space="preserve">
-    <value>Palindrome</value>
-  </data>
-  <data name="MenuFactorielle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuFactorielle.Text" xml:space="preserve">
-    <value>Factoriel</value>
-  </data>
-  <data name="MenuMemory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuMemory.Text" xml:space="preserve">
-    <value>Memory</value>
-  </data>
-  <data name="MenuSudoku.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuSudoku.Text" xml:space="preserve">
-    <value>Sudoku</value>
-  </data>
-  <data name="MenuQuiz.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuQuiz.Text" xml:space="preserve">
-    <value>Quiz</value>
-  </data>
-  <data name="MenuJeux.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuJeux.Text" xml:space="preserve">
-    <value>Jeux</value>
-  </data>
-  <data name="MenuEvasion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuEvasion.Text" xml:space="preserve">
-    <value>Evasion</value>
-  </data>
-  <data name="MenuEvasionV2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuEvasionV2.Text" xml:space="preserve">
-    <value>EvasionV2</value>
-  </data>
-  <data name="MenuPersonalTheque.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuPersonalTheque.Text" xml:space="preserve">
-    <value>PersonalTheque</value>
-  </data>
-  <data name="OuvrirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="OuvrirToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ouvrir</value>
-  </data>
-  <data name="MenuFermerActive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuFermerActive.Text" xml:space="preserve">
-    <value>Fenêtre active</value>
-  </data>
-  <data name="MenuFermerAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuFermerAll.Text" xml:space="preserve">
-    <value>Toute les fenêtre</value>
-  </data>
-  <data name="MenuFermer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuFermer.Text" xml:space="preserve">
-    <value>Fermer</value>
-  </data>
-  <data name="ParametreToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="ParametreToolStripMenuItem.Text" xml:space="preserve">
-    <value>Parametre</value>
-  </data>
-  <data name="QuiterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="QuiterToolStripMenuItem.Text" xml:space="preserve">
-    <value>Quitter</value>
-  </data>
-  <data name="FichierToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 20</value>
-  </data>
-  <data name="FichierToolStripMenuItem.Text" xml:space="preserve">
-    <value>Fichier</value>
-  </data>
-  <data name="MenuCascade.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuCascade.Text" xml:space="preserve">
-    <value>Cascade</value>
-  </data>
-  <data name="MenuVertical.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuVertical.Text" xml:space="preserve">
-    <value>Vertical</value>
-  </data>
-  <data name="MenuHorisontal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuHorisontal.Text" xml:space="preserve">
-    <value>Horizontal</value>
-  </data>
-  <data name="TSM_Fenêtre.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 20</value>
-  </data>
-  <data name="TSM_Fenêtre.Text" xml:space="preserve">
-    <value>Fenêtre</value>
-  </data>
-  <data name="TSM_About.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 20</value>
-  </data>
-  <data name="TSM_About.Text" xml:space="preserve">
-    <value>A Propos</value>
-  </data>
   <data name="MenuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -322,6 +178,150 @@
   </data>
   <data name="&gt;&gt;MenuStrip1.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="FichierToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="FichierToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
+  <data name="OuvrirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="OuvrirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="MenuForm1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="MenuForm1.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="MenuForm2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="MenuForm2.Text" xml:space="preserve">
+    <value>Form2</value>
+  </data>
+  <data name="MenuCalcul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="MenuCalcul.Text" xml:space="preserve">
+    <value>Calcul</value>
+  </data>
+  <data name="MenuPalindrome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="MenuPalindrome.Text" xml:space="preserve">
+    <value>Palindrome</value>
+  </data>
+  <data name="MenuFactorielle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="MenuFactorielle.Text" xml:space="preserve">
+    <value>Factoriel</value>
+  </data>
+  <data name="MenuJeux.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="MenuJeux.Text" xml:space="preserve">
+    <value>Jeux</value>
+  </data>
+  <data name="MenuMemory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="MenuMemory.Text" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="MenuSudoku.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="MenuSudoku.Text" xml:space="preserve">
+    <value>Sudoku</value>
+  </data>
+  <data name="MenuQuiz.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="MenuQuiz.Text" xml:space="preserve">
+    <value>Quiz</value>
+  </data>
+  <data name="MenuEvasion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="MenuEvasion.Text" xml:space="preserve">
+    <value>Evasion</value>
+  </data>
+  <data name="MenuEvasionV2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="MenuEvasionV2.Text" xml:space="preserve">
+    <value>EvasionV2</value>
+  </data>
+  <data name="MenuPersonalTheque.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="MenuPersonalTheque.Text" xml:space="preserve">
+    <value>PersonalTheque</value>
+  </data>
+  <data name="MenuFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="MenuFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="MenuFermerActive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="MenuFermerActive.Text" xml:space="preserve">
+    <value>Fenêtre active</value>
+  </data>
+  <data name="MenuFermerAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="MenuFermerAll.Text" xml:space="preserve">
+    <value>Toute les fenêtre</value>
+  </data>
+  <data name="ParametreToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="ParametreToolStripMenuItem.Text" xml:space="preserve">
+    <value>Parametre</value>
+  </data>
+  <data name="QuiterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="QuiterToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="TSM_Fenêtre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="TSM_Fenêtre.Text" xml:space="preserve">
+    <value>Fenêtre</value>
+  </data>
+  <data name="MenuCascade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="MenuCascade.Text" xml:space="preserve">
+    <value>Cascade</value>
+  </data>
+  <data name="MenuVertical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="MenuVertical.Text" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="MenuHorisontal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="MenuHorisontal.Text" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="TSM_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="TSM_About.Text" xml:space="preserve">
+    <value>A Propos</value>
   </data>
   <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>225, 19</value>
@@ -392,6 +392,18 @@
   </data>
   <data name="QuizzToolStripMenuItem.Text" xml:space="preserve">
     <value>Quizz</value>
+  </data>
+  <data name="ChifumiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ChifumiToolStripMenuItem.Text" xml:space="preserve">
+    <value>Chifumi</value>
+  </data>
+  <data name="_007ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="_007ToolStripMenuItem.Text" xml:space="preserve">
+    <value>_007</value>
   </data>
   <data name="TSM_memory.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -630,9 +642,6 @@ ermer toute les fenetre</value>
         AA/wAAAP8AAAD/AAAA//////////////////////
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value> </value>
   </data>
@@ -688,6 +697,24 @@ ermer toute les fenetre</value>
     <value>MenuJeux</value>
   </data>
   <data name="&gt;&gt;MenuJeux.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuMemory.Name" xml:space="preserve">
+    <value>MenuMemory</value>
+  </data>
+  <data name="&gt;&gt;MenuMemory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuSudoku.Name" xml:space="preserve">
+    <value>MenuSudoku</value>
+  </data>
+  <data name="&gt;&gt;MenuSudoku.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuQuiz.Name" xml:space="preserve">
+    <value>MenuQuiz</value>
+  </data>
+  <data name="&gt;&gt;MenuQuiz.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MenuEvasion.Name" xml:space="preserve">
@@ -822,6 +849,18 @@ ermer toute les fenetre</value>
   <data name="&gt;&gt;QuizzToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;ChifumiToolStripMenuItem.Name" xml:space="preserve">
+    <value>ChifumiToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ChifumiToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_007ToolStripMenuItem.Name" xml:space="preserve">
+    <value>_007ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;_007ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;TSB_evasion.Name" xml:space="preserve">
     <value>TSB_evasion</value>
   </data>
@@ -850,6 +889,12 @@ ermer toute les fenetre</value>
     <value>TSB_Fermer</value>
   </data>
   <data name="&gt;&gt;TSB_Fermer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TSB_FermerAll.Name" xml:space="preserve">
+    <value>TSB_FermerAll</value>
+  </data>
+  <data name="&gt;&gt;TSB_FermerAll.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
@@ -887,30 +932,6 @@ ermer toute les fenetre</value>
   </data>
   <data name="&gt;&gt;QuitterToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TSB_FermerAll.Name" xml:space="preserve">
-    <value>TSB_FermerAll</value>
-  </data>
-  <data name="&gt;&gt;TSB_FermerAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MenuMemory.Name" xml:space="preserve">
-    <value>MenuMemory</value>
-  </data>
-  <data name="&gt;&gt;MenuMemory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MenuSudoku.Name" xml:space="preserve">
-    <value>MenuSudoku</value>
-  </data>
-  <data name="&gt;&gt;MenuSudoku.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MenuQuiz.Name" xml:space="preserve">
-    <value>MenuQuiz</value>
-  </data>
-  <data name="&gt;&gt;MenuQuiz.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MDI</value>
