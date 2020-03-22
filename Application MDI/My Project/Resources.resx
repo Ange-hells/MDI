@@ -127,14 +127,17 @@
   <data name="Fermer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fermer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Pass Fail_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pass Fail_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-search-folder-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-search-folder-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TileCascade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TileCascade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OuvrirForm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OuvrirForm1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="baniere demarage MDIv1xx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baniere demarage MDIv1xx.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Math_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Math_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,14 +145,23 @@
   <data name="Grid_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Grid_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Formula FX_16px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Formula FX_16px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="OuvrirForm2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OuvrirForm2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-activity-history-16(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-activity-history-16(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="font-007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-007.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="téléchargé3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\téléchargé3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="007-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\007-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cards_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cards_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,14 +172,11 @@
   <data name="Direction_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Direction_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Left 2_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Left 2_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Replay_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Replay_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sans titre 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sans titre 11.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Stop Sign_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Stop Sign_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TileHorizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TileHorizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,20 +184,29 @@
   <data name="Sans titre 101" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sans titre 101.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-add-to-favorites-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-add-to-favorites-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-balle-2-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-balle-2-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EvasionV2Baniere" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EvasionV2Baniere.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-coeurs-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-coeurs-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MDIBaniere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MDIBaniere.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Formula FX_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Formula FX_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Left 2_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Left 2_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-add-to-favorites-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-add-to-favorites-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wanted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wanted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_Administrative_Tools_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_Administrative_Tools_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOCY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOCY.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-activity-history-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-activity-history-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,29 +223,29 @@
   <data name="Chifumi-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chifumi-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Right 2_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Right 2_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-tirer-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-tirer-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Book Shelf_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Book Shelf_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pass Fail_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pass Fail_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="EvasionV2Baniere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EvasionV2Baniere.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TileVertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TileVertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Formula FX_16px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Formula FX_16px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OuvrirForm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OuvrirForm1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Quitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Quitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baniere demarage MDIv1xx" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\baniere demarage MDIv1xx.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sans titre 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sans titre 11.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MDIBaniere" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MDIBaniere.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Stop Sign_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stop Sign_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Middle East_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Middle East_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,10 +259,19 @@
   <data name="Sans titre 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sans titre 11.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Right 2_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Right 2_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-0071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-007.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DASTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DASTE.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-order-history-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-order-history-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="007-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\007-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-bouclier-chevalier-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-bouclier-chevalier-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
