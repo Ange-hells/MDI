@@ -450,13 +450,22 @@
     <None Include="Resources\Search_16px.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\007-16.png" />
+    <Content Include="Resources\DASTE.bmp" />
+    <Content Include="Resources\font-007.jpg" />
+    <Content Include="Resources\icons8-balle-2-48.png" />
+    <Content Include="Resources\icons8-bouclier-chevalier-48.png" />
+    <Content Include="Resources\icons8-coeur-brisé-48.png" />
+    <Content Include="Resources\icons8-coeurs-48.png" />
+    <Content Include="Resources\icons8-tirer-48.png" />
+    <Content Include="Resources\TOCY.bmp" />
+    <Content Include="Resources\wanted.png" />
     <None Include="Resources\Sans titre 11.bmp" />
     <None Include="Resources\Sans titre 101.bmp" />
     <None Include="Resources\Sans titre 10.bmp" />
     <None Include="Resources\Pass Fail_16px.png" />
     <None Include="Resources\baniere demarage MDIv1xx.bmp" />
     <None Include="Resources\Grid_16px.png" />
-    <Content Include="Resources\007-16.png" />
     <Content Include="Resources\Chifumi-16.png" />
     <Content Include="Resources\icons8_Application_Window.ico" />
     <None Include="Resources\icons8_Administrative_Tools_16.png" />
